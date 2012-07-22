@@ -1,0 +1,11 @@
+---
+title: Not Addressed to Me
+layout: main
+paginate: 20
+---
+
+<!-- Front page list of posts -->
+{% for post in site.posts limit:20 %}
+  {{ post.content }}
+  <a href="{{ post.url }}">#</a>
+{% endfor %}

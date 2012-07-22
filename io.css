@@ -1,0 +1,78 @@
+body {
+  font-size:16pt;
+  line-height:1.5em;
+  font-family:"Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
+  width: 32em;
+  margin:4ex 0 12ex 20%;
+  -webkit-hyphens: auto;
+}
+
+em.signature {
+  display:block;
+  text-align:right;
+}
+
+h1 {
+  line-height:1.1em;
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #F00;
+}
+
+div img {
+  margin-top:-4ex;
+}
+
+blockquote {
+  font-style:italic;
+}
+
+sup {
+  height: 0;
+  line-height: 1;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+blockquote em {
+  font-style:normal;
+}
+
+ul {
+  padding-left:0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img.right {
+  float: right;
+  margin:0 0 1em 1em;
+  border: 0px;
+}
+
+code {
+	font-size:0.9em;
+}
+
+#sidebar {
+  float: right;
+  width:6em;
+  margin-right:-7em;
+  font-size: 14pt;
+  line-height: 1.2;
+}
+
+#content {
+
+}

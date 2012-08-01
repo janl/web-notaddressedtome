@@ -26,9 +26,6 @@ a:hover {
   color: #F00;
 }
 
-div img {
-  margin-top:-4ex;
-}
 
 blockquote {
   font-style:italic;
@@ -73,6 +70,6 @@ code {
   line-height: 1.2;
 }
 
-#content {
-
+div.content {
+  margin-bottom: 12ex;
 }

@@ -6,6 +6,8 @@ paginate: 20
 
 <!-- Front page list of posts -->
 {% for post in site.posts limit:20 %}
-  {{ post.content }}
-  <a href="{{ post.url }}">#</a>
+  <div class="content">
+    {{ post.content }}
+    <a href="{{ post.url }}">#</a>
+  </div>
 {% endfor %}
